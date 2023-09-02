@@ -1,0 +1,99 @@
+.parentContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title {
+    font-weight: 600;
+    text-align: center;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    height: calc(100vh - 120px);
+    overflow: auto;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonBar {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.backButton {
+    flex: 1
+}
+
+.button {
+    margin: 5px;
+}
+
+.addressPageContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.addressContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.addressForm {
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formComponent {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.inputField {
+    flex: 0.6;
+}
+
+.labelField {
+    flex: 0.2;
+}
+
+.flex-item {
+    flex: 0.5;
+    height: 100%;
+}
+
+.right-separator {
+    border-right: 8px solid #e8e8e8;
+    border-radius: 2px;
+}
+
+.addressDetailItem {
+    display: flex;
+    flex: 0.1;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.product-details {
+    height: calc(100vh - 120px);
+    overflow: auto;
+    padding: 0 5px;
+}
+
+.priceContainer {
+    padding: 5px;
+} 
+
+.filterBox {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
