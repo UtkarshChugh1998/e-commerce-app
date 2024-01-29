@@ -8,7 +8,6 @@ export const PurchaseSummary = (props: any) => {
     const { updatedPrice } = getTotalAndUpdatedPrice(formPayload.productList)
     const roundedValue = Math.round(updatedPrice * 100) / 100
     const handleReload = (e: any) => {
-        e.preventDefault()
         // Will clear the localStorage, payload and then navigate to products.
         clearPayloadAndLocalStorage()
         goToPage('products')
